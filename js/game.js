@@ -65,14 +65,14 @@ class Game{
         x = 500 - allPlayers[plr].distance;
         y = 500;
                      
-    players[index - 1].x = x;
-    players[index - 1].y = y;
+        players[index - 1].x = x;
+        players[index - 1].y = y;
                        
     if(index === player.index){
                          
         fill("black");
         textSize(25);
-        text(allPlayers[plr].name ,x - 50,y+25);
+        text(allPlayers[plr].name ,x - 50, y + 25);
 
         fill("white");
         text(allPlayers.player1.name + "'s score:" + allPlayers.player1.score, 50, 50);
